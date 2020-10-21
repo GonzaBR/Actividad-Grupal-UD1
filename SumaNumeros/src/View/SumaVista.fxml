@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="470.0" prefWidth="708.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Controller">
+	<children>
+		<Button fx:id="btnsumar" layoutX="314.0" layoutY="235.0" mnemonicParsing="false" onAction="#suma" prefHeight="42.0" prefWidth="102.0" text="Sumar" />
+      <Label layoutX="206.0" layoutY="173.0" text="Operando 2" />
+      <Label layoutX="206.0" layoutY="117.0" text="Operando 1" />
+      <Label layoutX="206.0" layoutY="334.0" text="Resultado" />
+      <TextField fx:id="txtOpen1" layoutX="290.0" layoutY="113.0" />
+      <TextField fx:id="txtOpen2" layoutX="290.0" layoutY="169.0" />
+      <TextField fx:id="txtResultado" editable="false" layoutX="290.0" layoutY="330.0" />
+	</children>
+</AnchorPane>

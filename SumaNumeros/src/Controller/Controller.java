@@ -41,6 +41,8 @@ public class Controller {
 			alert.setTitle("Error");
 			alert.setContentText("Formato incorrento");
 			alert.showAndWait();
+		}finally {
+			System.out.println("se cierran los recursos");
 		}
 		
 		

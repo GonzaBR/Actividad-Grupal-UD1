@@ -15,6 +15,7 @@ public class Main extends Application {
     public void start(Stage primaryStage) {
  
         try {
+	    System.out.println("Proyecto javaFx para realizar la suma de dos numeros");
             FXMLLoader loader = new FXMLLoader();
             loader.setLocation(Main.class.getResource("/View/SumaVista.fxml"));
             // Cargo la ventana

@@ -4,6 +4,7 @@ public class SumaModelo {
 
 	private int a;
 	private int b;
+	private int c;
 	
 	//Constructor
 	public SumaModelo(int a,int b) {
@@ -16,6 +17,11 @@ public class SumaModelo {
 	public int sumarN() {
 		return a + b;
 
+	}
+
+	public void setC(int c){
+		this.c = sumarN();
+	
 	}
 
 	public int getA() {
